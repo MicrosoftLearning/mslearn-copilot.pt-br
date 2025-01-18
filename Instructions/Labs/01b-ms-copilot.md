@@ -12,6 +12,8 @@ Imagine o seguinte: você está prestes a lançar um serviço de limpeza de alto
 
 Prepare-se para liberar sua criatividade e perspicácia nos negócios enquanto navega por este laboratório envolvente e interativo. Ao final deste exercício, você terá um conjunto abrangente de materiais que o colocarão no caminho do sucesso empresarial. Vamos começar e tornar sua empresa de limpeza corporativa uma realidade!
 
+> **Importante**: este exercício fornece prompts que você pode usar para trabalhar com o Copilot. Você deve usá-los como *ponto de partida* para explorar o Copilot. Incentivamos você a modificar esses prompts e adicionar seus próprios prompts para participar de um diálogo iterativo com o Copilot e refinar os resultados que ele produz. Talvez você não termine exatamente com a saída descrita nas instruções do exercício, mas não tem problema, o objetivo é experimentar o Copilot.
+
 Este exercício levará aproximadamente **40** minutos para ser concluído.
 
 > **Observação**: esse exercício pressupõe que você tenha uma [Conta Microsoft pessoal](https://signup.live.com) (como uma conta do outlook.com) com a qual fez login no [Microsoft Edge](https://www.microsoft.com/edge/download) no seu computador. Se você tiver uma conta corporativa e uma conta pessoal, certifique-se de selecionar sua conta *pessoal* nas configurações da conta no canto superior esquerdo do Microsoft Edge.
@@ -29,6 +31,8 @@ Para iniciar sua exploração da IA generativa, vamos usar o Microsoft Copilot n
 1. Use o ícone do **Copilot** na barra de ferramentas do Edge para abrir o painel do Copilot, conforme mostrado aqui:
 
     ![Captura de tela do painel do Copilot no Microsoft Edge.](./Media/edge-copilot.png)
+
+    > **Dica**: o Microsoft Copilot é aprimorado continuamente. Sua interface de usuário pode não corresponder exatamente à imagem mostrada.
 
 1. Na caixa do chat, na parte inferior do painel do Copilot, insira o seguinte prompt:
 
@@ -100,7 +104,6 @@ Agora que você já fez algumas pesquisas iniciais, vamos pedir ao Copilot para 
 
 Com a ajuda do Copilot, você criou um rascunho de um plano de negócios para a sua ideia de uma empresa de limpeza. Agora vamos usar o Copilot para realizar alguns cálculos que ajudarão a refinar ainda mais o plano de negócios.
 
-1. No OneDrive, use o botão **(+)** para adicionar uma nova **pasta de trabalho do Excel**. Em seguida, altere o nome da pasta de trabalho para `Financial Projections`.
 1. No painel do Copilot, insira o seguinte prompt:
 
     ```prompt
@@ -108,7 +111,9 @@ Com a ajuda do Copilot, você criou um rascunho de um plano de negócios para a 
     ```
 
 1. Revise a resposta, que deve incluir uma tabela de lucros projetados para os próximos cinco anos.
-1. Copie a tabela para a área de transferência (tomando cuidado para selecionar apenas a tabela). Em seguida, selecione a célula A1 na pasta de trabalho do Excel e, na guia **Página Inicial**, no menu **Área de Transferência**, em **Colar especial**, selecione **Somente valores** para que os valores da tabela sejam colados na planilha assim:
+1. Se uma opção para editar a tabela no Excel for mostrada, selecione-a para criar uma nova pasta de trabalho com a tabela de dados. Caso contrário, retorne à guia OneDrive e use o botão **(+)** para adicionar uma nova **pasta de trabalho do Excel**. Em seguida, copie a tabela de dados do painel do Copilot para a pasta de trabalho.
+
+1. Altere o nome da pasta de trabalho para `Financial Projections`. Ela deve ser semelhante a este:
 
     ![Captura de tela de uma pasta de trabalho do Excel com dados gerados pelo Copilot.](./Media/generated-financials.png)
 
@@ -204,28 +209,8 @@ Graças ao Copilot, você criou um plano de negócios para o negócio de limpeza
 Você criou alguns materiais de apoio para ajudar a iniciar seu negócio. Agora é hora de entrar em contato com um investidor em busca de financiamento de startup.
 
 1. Use o **Inicializador de Aplicativos** (&#8759;) na ponta esquerda da barra de título do OneDrive para abrir o **Outlook**.
-1. Mude para a página **Calendário** e altere a visualização para **Semana de trabalho**. Se você ainda não tiver nenhum evento agendado em seu calendário, poderá adicionar alguns para que o Copilot tenha algumas informações para trabalhar.
-1. No painel do Copilot, insira o seguinte prompt:
 
-    ```prompt
-    What events do I have scheduled in this calendar?
-    ```
-    
-    O Copilot deve ser capaz de ler o calendário na página da web e identificar eventos em seu calendário:
-
-    ![Captura de tela de um calendário do Outlook com eventos de identificação do Copilot.](./Media/calendar-events.png)
-
-1. Tente usar este prompt para verificar sua disponibilidade para uma reunião com um gerente de banco para buscar financiamento para o negócio:
-
-    ```prompt
-    What's my availability for a meeting this week?
-    ```
-
-    O Copilot deve fornecer um resumo de sua disponibilidade com base nas informações de calendário na página da Web do Outlook.
-
-    > **Observação**: o Microsoft Copilot pode ler a página do calendário que está aberta no navegador (e pode "lembrar" detalhes durante a sessão atual), mas não pode acessar os dados do calendário diretamente. Em um ambiente corporativo, sua organização pode usar o Microsoft 365 Copilot, que *tem* acesso ao seu calendário e email no Outlook, bem como informações em outros aplicativos corporativos, como o Microsoft Teams.
-
-1. Mude para a página **Mail** e crie um novo email. Preencha a caixa **Para** com seu próprio endereço de email e defina o **Assunto** como `Business funding meeting request`.
+1. Na página **Email**, crie um novo email. Preencha a caixa **Para** com seu próprio endereço de email e defina o **Assunto** como `Business funding meeting request`.
 1. No painel do Copilot, insira o seguinte prompt:
 
     ```prompt
