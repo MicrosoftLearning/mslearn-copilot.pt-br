@@ -144,12 +144,16 @@ Com a ajuda do Copilot, você criou um rascunho de um plano de negócios para a 
     ```prompt
     Create a presentation about a corporate cleaning service named "Contoso Cleaning" in New York City. The presentation should include the benefits of using a professional cleaning business.
     ```
+1. Examine o design da apresentação e selecione **Gerar slides**.
 
+    ![Captura de tela da apresentação do PowerPoint criada pelo Copilot de um documento do Word.](./Media/copilot-generate-slides.png)
 1. O Copilot irá gerar slides na apresentação.  O processo pode levar vários minutos e sua saída deve ser semelhante a esta com um tema diferente:
 
-    ![Captura de tela da apresentação do PowerPoint criada pelo Copilot de um documento do Word.](./Media/copilot-powerpoint-create-image.png)
+    ![Captura de tela da apresentação do PowerPoint criada pelo Copilot de um documento do Word.](./Media/generate-slides-copilot.png)
 
-1. Selecione o penúltimo slide da apresentação (antes do final slide de *Conclusão* se o Copilot gerou um). Em seguida, no painel Copilot, na caixa de chat, selecione o ícone **Visualizar prompts** e selecione o prompt **Adicionar um slide sobre...** para criar um novo slide usando o prompt `Add a slide about the benefits of an eco-friendly approach to cleaning.`
+1. Selecione **Manter** e, em seguida, defina seu **modo de exibição** como **normal** no canto inferior direito da apresentação do PowerPoint ![Captura de tela da apresentação do PowerPoint para criar um novo slide.](./Media/normal-presentation-view.png)
+
+1. Selecione o penúltimo slide da apresentação (antes do final slide de *Conclusão* se o Copilot gerou um). Em seguida, no painel Copilot, na caixa de chat, solicite a criação de um novo slide usando o prompt `Add a slide about the benefits of an eco-friendly approach to cleaning.`
 
     ![Captura de tela da apresentação do PowerPoint para criar um novo slide.](./Media/copilot-powerpoint-add-new-slide.png)
 
