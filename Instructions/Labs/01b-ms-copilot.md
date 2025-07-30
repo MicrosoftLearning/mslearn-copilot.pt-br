@@ -50,7 +50,7 @@ Para iniciar sua exploração da IA generativa, vamos usar o Microsoft Copilot n
 
     Com esperança, o Copilot forneceu algumas orientações úteis. No entanto, se você tiver perguntas adicionais, basta solicitar informações mais específicas.
 
-1. Digite a seguinte solicitação:
+1. Digite o seguinte prompt:
 
     ```prompt
     How do I go about setting up a business in New York?
@@ -77,8 +77,8 @@ Agora que você já fez algumas pesquisas iniciais, vamos pedir ao Copilot para 
     Based on the contents of this document, create a business plan for my cleaning business.
     ```
 
-1. Revise a resposta. Em seguida, no painel do Microsoft Word, no menu **Arquivo**, crie um novo documento em branco. Feche o painel **Designer** se ele abrir e altere o nome do novo documento de *Documento* para `Business Plan`.
-1. Copie o plano de negócios que foi gerado no painel Copilot e cole-o no documento do plano de negócios:
+1. Analise a resposta. Em seguida, no painel do Microsoft Word, no menu **Arquivo**, crie um novo documento em branco. Feche o painel **Designer** se ele abrir e altere o nome do novo documento de *Documento* para `Business Plan`.
+1. Copie o plano de negócios gerado no painel do Copilot e cole-o no documento do plano de negócios, removendo qualquer conteúdo desnecessário do Copilot:
 
     ![Captura de tela de um documento do Word com um plano de negócios gerado pelo Copilot.](./Media/generated-content.png)
 
@@ -113,7 +113,7 @@ Com a ajuda do Copilot, você criou um rascunho de um plano de negócios para a 
 1. Revise a resposta, que deve incluir uma tabela de lucros projetados para os próximos cinco anos.
 1. Se uma opção para editar a tabela no Excel for mostrada, selecione-a para criar uma nova pasta de trabalho com a tabela de dados. Caso contrário, retorne à guia OneDrive e use o botão **(+)** para adicionar uma nova **pasta de trabalho do Excel**. Em seguida, copie a tabela de dados do painel do Copilot para a pasta de trabalho.
 
-1. Altere o nome da pasta de trabalho para `Financial Projections`. Ela deve ser semelhante a este:
+1. Altere o nome da pasta de trabalho para `Financial projections`. Ela deve ser semelhante a este:
 
     ![Captura de tela de uma pasta de trabalho do Excel com dados gerados pelo Copilot.](./Media/generated-financials.png)
 
@@ -147,6 +147,8 @@ Graças ao Copilot, você criou um plano de negócios para o negócio de limpeza
 
 1. No slide de título da apresentação, insira o nome da sua empresa de limpeza como título e `Investor Opportunity` como subtítulo.
 1. Insira um novo slide, usando o layout de slide **Dois Conteúdos** (que inclui um título e dois espaços reservados para o conteúdo).
+    ![Captura de tela de um novo slide com dois conteúdos.](./Media/two-content-slide.png)
+
 1. Altere o título do slide para `Benefits of Hiring a Commercial Cleaner`.
 1. No painel do Copilot, insira o seguinte prompt:
 
